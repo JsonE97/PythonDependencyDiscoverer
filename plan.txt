@@ -1,0 +1,9 @@
+I will be creating a python script to search a given directory for .c files and traversing their dependencies
+
+I will read all the files in from the directory, and for each file I will iterate through and gather their dependencies in a tree fashion.
+
+1 - Open the directory of files, and store all the files in a list
+2 - Traverse the files
+    2.1 - read the file and add any extra includes to an additional work list
+    2.2 - after the file is traversed, go through the additional work list, and add any extras to the work list as processing
+3 - In the end spit out the file dictionary
